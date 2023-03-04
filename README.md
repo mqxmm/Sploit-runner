@@ -1,22 +1,27 @@
 # cybersimple-app
 
-App for conducting simple exercises at cyberpolygon. made with using <s>Vue.js + Electron.js</s>. (Upd) python + eel
+App for conducting simple exercises at cyberpolygon. made with using python-eel.
 
 
 ![image](https://user-images.githubusercontent.com/79595418/187081734-5ffcbffc-a44e-42ee-90ba-0d63742fec2b.png)
 
 
 
-Логика программы: Использовать веб-интерфейс для взаимодействия с Metasploit Framework, а точнее с MsfRPC.  
+
+## <b>Changes log:</b>
+
+1. Cybersimple v1
 
 
+* Escape from Vue JS to Python Eel.
+
+>Eel is a little Python library for making simple Electron-like offline HTML/JS GUI apps, with full access to Python capabilities and libraries.
+<br>
+2. Cybersimple v2
 
 
-Список затупов и их решений в процессе разработки:
+* <s>Metasploit Framework</s> > Bash & Python scripts and exploiting using in cyberattacks.<br>
+* Added sidebar
+* Added IP-Spoofing, SSH Bruteforce scripts
 
-1. child_process отказывается выполнятся в составе [template] на странице Vue.
-
-решение: Уйти от использования Vue. Взять eel модуль python.
-мысли: Изначально планировалось, что вся работа с MsfRpc будет через JS и операторы child_process.exec(command). Но потом, то child_process с vue не дружит, хочет только внешние скрипты, окей. Ищем решение, находим готовый MsfRpc написанный уже на JS. Нуу, слишком сложно. Откатимся обратно к python.
-
-UPD (21/08/2022): Закончил первую версию этого веб-приложения. Короче говоря, python для MsfRpc, html и css для красоты, а чтобы всё работало чистый JS.
+<br>
