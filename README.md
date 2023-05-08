@@ -1,4 +1,4 @@
-# cybersimple-app
+# C2-run-script
 
 App for conducting simple exercises at cyberpolygon. made with using python-eel.
 
