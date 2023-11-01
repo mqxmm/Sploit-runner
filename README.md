@@ -1,4 +1,4 @@
-# C2-run-script
+# Sploit-runner
 
 App for conducting simple exercises at cyberpolygon. made with using python-eel.
 
